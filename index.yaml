@@ -18,8 +18,48 @@ entries:
         - title: Light theme
           url: https://raw.githubusercontent.com/vojtechpastyrik/squawk/main/screenshots/light.png
     apiVersion: v2
+    appVersion: 0.1.10
+    created: "2026-03-16T09:56:44.145687233Z"
+    description: A self-hosted, YAML-configured startpage dashboard
+    digest: 6fa8e0c798da3a249846e9c6c374c680002a1b4ee848542faad55cd169a9cba3
+    home: https://github.com/vojtechpastyrik/squawk
+    icon: https://raw.githubusercontent.com/vojtechpastyrik/squawk/main/src/assets/logo.svg
+    keywords:
+    - startpage
+    - dashboard
+    - homepage
+    - bookmarks
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: vojtech@pastyrik.dev
+      name: Vojtech Pastyrik
+      url: https://pastyrik.dev
+    name: squawk
+    sources:
+    - https://github.com/vojtechpastyrik/squawk
+    type: application
+    urls:
+    - https://vojtechpastyrik.github.io/charts/squawk-0.1.10.tgz
+    version: 0.1.10
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Initial release with tabs, groups, search, themes, and widgets
+      artifacthub.io/images: |
+        - name: squawk
+          image: ghcr.io/vojtechpastyrik/squawk:0.1.0
+      artifacthub.io/license: MIT
+      artifacthub.io/links: |
+        - name: Source
+          url: https://github.com/vojtechpastyrik/squawk
+      artifacthub.io/screenshots: |
+        - title: Dark theme
+          url: https://raw.githubusercontent.com/vojtechpastyrik/squawk/main/screenshots/dark.png
+        - title: Light theme
+          url: https://raw.githubusercontent.com/vojtechpastyrik/squawk/main/screenshots/light.png
+    apiVersion: v2
     appVersion: 0.1.9
-    created: "2026-03-13T20:47:38.87196828Z"
+    created: "2026-03-16T09:56:44.147396091Z"
     description: A self-hosted, YAML-configured startpage dashboard
     digest: d2a466f3983c9c4494f84a9bbfcbbeb338595ee0ee6ccd8c57db75d9bde19855
     home: https://github.com/vojtechpastyrik/squawk
@@ -48,7 +88,7 @@ entries:
           url: https://github.com/vojtechpastyrik/squawk
     apiVersion: v2
     appVersion: 0.1.8
-    created: "2026-03-13T20:47:38.871422039Z"
+    created: "2026-03-16T09:56:44.146453217Z"
     description: A self-hosted, YAML-configured startpage dashboard
     digest: 7453d5e1a405cafea4d40c27abb98572464cc82057bd3ff0aa2f501fe8c8078f
     home: https://github.com/vojtechpastyrik/squawk
@@ -61,4 +101,4 @@ entries:
     urls:
     - https://vojtechpastyrik.github.io/charts/squawk-0.1.8.tgz
     version: 0.1.8
-generated: "2026-03-13T20:47:38.870762055Z"
+generated: "2026-03-16T09:56:44.143543814Z"
