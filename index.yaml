@@ -9,7 +9,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-04T17:48:57.250500524Z"
+    created: "2026-04-04T17:49:58.946932301Z"
     description: AI-powered Kubernetes monitoring central agent
     digest: 7701ea2607863e8857184a35810c28b15343d0582095b0e8a1b0d272df1df852
     home: https://github.com/VojtechPastyrik/muthur-central
@@ -31,6 +31,36 @@ entries:
     urls:
     - https://vojtechpastyrik.github.io/charts/muthur-central-0.1.0.tgz
     version: 0.1.0
+  muthur-collector:
+  - annotations:
+      artifacthub.io/license: MIT
+      artifacthub.io/maintainers: |
+        - name: Vojtech Pastyrik
+          email: vojtech@pastyrik.dev
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-04-04T17:49:58.947274956Z"
+    description: Lightweight Kubernetes alert collector agent
+    digest: aaed378dabbc38d5429220a414cb715abccb1f3b5d20396812a300076fccd429
+    home: https://github.com/VojtechPastyrik/muthur-collector
+    keywords:
+    - monitoring
+    - kubernetes
+    - alerting
+    - collector
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: vojtech@pastyrik.dev
+      name: Vojtech Pastyrik
+      url: https://pastyrik.dev
+    name: muthur-collector
+    sources:
+    - https://github.com/VojtechPastyrik/muthur-collector
+    type: application
+    urls:
+    - https://vojtechpastyrik.github.io/charts/muthur-collector-0.1.0.tgz
+    version: 0.1.0
   squawk:
   - annotations:
       artifacthub.io/changes: |
@@ -50,7 +80,7 @@ entries:
           url: https://raw.githubusercontent.com/vojtechpastyrik/squawk/main/screenshots/light.png
     apiVersion: v2
     appVersion: 0.1.10
-    created: "2026-04-04T17:48:57.251026863Z"
+    created: "2026-04-04T17:49:58.947743442Z"
     description: A self-hosted, YAML-configured startpage dashboard
     digest: 6fa8e0c798da3a249846e9c6c374c680002a1b4ee848542faad55cd169a9cba3
     home: https://github.com/vojtechpastyrik/squawk
@@ -90,7 +120,7 @@ entries:
           url: https://raw.githubusercontent.com/vojtechpastyrik/squawk/main/screenshots/light.png
     apiVersion: v2
     appVersion: 0.1.9
-    created: "2026-04-04T17:48:57.252834075Z"
+    created: "2026-04-04T17:49:58.949487874Z"
     description: A self-hosted, YAML-configured startpage dashboard
     digest: d2a466f3983c9c4494f84a9bbfcbbeb338595ee0ee6ccd8c57db75d9bde19855
     home: https://github.com/vojtechpastyrik/squawk
@@ -119,7 +149,7 @@ entries:
           url: https://github.com/vojtechpastyrik/squawk
     apiVersion: v2
     appVersion: 0.1.8
-    created: "2026-04-04T17:48:57.251475175Z"
+    created: "2026-04-04T17:49:58.948952673Z"
     description: A self-hosted, YAML-configured startpage dashboard
     digest: 7453d5e1a405cafea4d40c27abb98572464cc82057bd3ff0aa2f501fe8c8078f
     home: https://github.com/vojtechpastyrik/squawk
@@ -132,4 +162,4 @@ entries:
     urls:
     - https://vojtechpastyrik.github.io/charts/squawk-0.1.8.tgz
     version: 0.1.8
-generated: "2026-04-04T17:48:57.249866837Z"
+generated: "2026-04-04T17:49:58.946314452Z"
