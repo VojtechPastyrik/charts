@@ -8,8 +8,38 @@ entries:
           email: vojtech@pastyrik.dev
       artifacthub.io/prerelease: "false"
     apiVersion: v2
+    appVersion: 0.1.4
+    created: "2026-04-05T08:21:35.313611365Z"
+    description: AI-powered Kubernetes monitoring central agent
+    digest: 2ba40ca84ead870fe45198d48d51a7396b69a27000e872246d1651d7f345301c
+    home: https://github.com/VojtechPastyrik/muthur
+    keywords:
+    - monitoring
+    - kubernetes
+    - alerting
+    - ai
+    - claude
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: vojtech@pastyrik.dev
+      name: Vojtech Pastyrik
+      url: https://pastyrik.dev
+    name: muthur
+    sources:
+    - https://github.com/VojtechPastyrik/muthur
+    type: application
+    urls:
+    - https://vojtechpastyrik.github.io/charts/muthur-0.1.4.tgz
+    version: 0.1.4
+  - annotations:
+      artifacthub.io/license: MIT
+      artifacthub.io/maintainers: |
+        - name: Vojtech Pastyrik
+          email: vojtech@pastyrik.dev
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
     appVersion: 0.1.2
-    created: "2026-04-05T08:12:46.535478536Z"
+    created: "2026-04-05T08:21:35.312991863Z"
     description: AI-powered Kubernetes monitoring central agent
     digest: 562b83920e8d6f684298a3a7d079dc1ff8ad17188216ea95853f113b32834ead
     home: https://github.com/VojtechPastyrik/muthur
@@ -39,7 +69,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-04-05T08:12:46.534787825Z"
+    created: "2026-04-05T08:21:35.31242512Z"
     description: AI-powered Kubernetes monitoring central agent
     digest: d0049aac8f184f271ad1b2ba9ff424d5e450dfb4ac0ab86ad7a349c1cc032e49
     home: https://github.com/VojtechPastyrik/muthur
@@ -69,7 +99,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-05T08:12:46.534028095Z"
+    created: "2026-04-05T08:21:35.311773681Z"
     description: AI-powered Kubernetes monitoring central agent
     digest: 05be5540c300b9ea6c2eb435d9f2b37910facf9c6eea377657ef401e446557fb
     home: https://github.com/VojtechPastyrik/muthur
@@ -100,7 +130,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 0.1.3
-    created: "2026-04-05T08:12:46.537057679Z"
+    created: "2026-04-05T08:21:35.314956102Z"
     description: Lightweight Kubernetes alert collector agent
     digest: d65674303dcd81ff74e5b6ee86a49cdfb2e1321d02675c516b0df3dbc02b5d07
     home: https://github.com/VojtechPastyrik/muthur-collector
@@ -129,7 +159,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 0.1.2
-    created: "2026-04-05T08:12:46.536678099Z"
+    created: "2026-04-05T08:21:35.314619216Z"
     description: Lightweight Kubernetes alert collector agent
     digest: f1dadf04ba265e491d83d101e7ca2f397d4116124e87f79b88e15818e147a0c4
     home: https://github.com/VojtechPastyrik/muthur-collector
@@ -158,7 +188,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-04-05T08:12:46.536287909Z"
+    created: "2026-04-05T08:21:35.314285504Z"
     description: Lightweight Kubernetes alert collector agent
     digest: 26572a9c432ec2113a93aa24cb29b69c5c09ad4c67a56b0d42a51a24076732b1
     home: https://github.com/VojtechPastyrik/muthur-collector
@@ -187,7 +217,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-05T08:12:46.535913489Z"
+    created: "2026-04-05T08:21:35.313951692Z"
     description: Lightweight Kubernetes alert collector agent
     digest: aaed378dabbc38d5429220a414cb715abccb1f3b5d20396812a300076fccd429
     home: https://github.com/VojtechPastyrik/muthur-collector
@@ -227,7 +257,7 @@ entries:
           url: https://raw.githubusercontent.com/vojtechpastyrik/squawk/main/screenshots/light.png
     apiVersion: v2
     appVersion: 0.1.10
-    created: "2026-04-05T08:12:46.537619839Z"
+    created: "2026-04-05T08:21:35.315778788Z"
     description: A self-hosted, YAML-configured startpage dashboard
     digest: 6fa8e0c798da3a249846e9c6c374c680002a1b4ee848542faad55cd169a9cba3
     home: https://github.com/vojtechpastyrik/squawk
@@ -267,7 +297,7 @@ entries:
           url: https://raw.githubusercontent.com/vojtechpastyrik/squawk/main/screenshots/light.png
     apiVersion: v2
     appVersion: 0.1.9
-    created: "2026-04-05T08:12:46.539413611Z"
+    created: "2026-04-05T08:21:35.317376508Z"
     description: A self-hosted, YAML-configured startpage dashboard
     digest: d2a466f3983c9c4494f84a9bbfcbbeb338595ee0ee6ccd8c57db75d9bde19855
     home: https://github.com/vojtechpastyrik/squawk
@@ -296,7 +326,7 @@ entries:
           url: https://github.com/vojtechpastyrik/squawk
     apiVersion: v2
     appVersion: 0.1.8
-    created: "2026-04-05T08:12:46.538198712Z"
+    created: "2026-04-05T08:21:35.316817015Z"
     description: A self-hosted, YAML-configured startpage dashboard
     digest: 7453d5e1a405cafea4d40c27abb98572464cc82057bd3ff0aa2f501fe8c8078f
     home: https://github.com/vojtechpastyrik/squawk
@@ -309,4 +339,4 @@ entries:
     urls:
     - https://vojtechpastyrik.github.io/charts/squawk-0.1.8.tgz
     version: 0.1.8
-generated: "2026-04-05T08:12:46.533176843Z"
+generated: "2026-04-05T08:21:35.310951323Z"
